@@ -6,7 +6,9 @@ function task()
   {
     case 1:
       console.log("1. Обычная задача");
+      break;
     case 2:
       console.log("2. English");
+      break;
   }
 }

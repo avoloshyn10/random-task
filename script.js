@@ -1,1 +1,4 @@
-console.log("Обязательные задачи:");
+function script()
+{
+  console.log("Обязательные задачи:");
+}

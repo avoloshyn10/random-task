@@ -10,5 +10,8 @@ function task()
     case 2:
       console.log("2. English");
       break;
+    case 3:
+      console.log("3. OpenPanzer2");
+      break;
   }
 }

@@ -13,5 +13,11 @@ function task()
     case 3:
       console.log("3. OpenPanzer2");
       break;
+    case 4:
+      console.log("4. Постирать носки, трусы, футболку, побриться");
+      break;
+    case 5:
+      console.log("5. RR3 25000 points");
+      break;
   }
 }

@@ -31,13 +31,13 @@ function task()
       console.log("2. Музыка");
       break;
     case 3:
-      console.log("3. ");
+      console.log("3. Кино");
       break;
     case 4:
-      console.log("4. ");
+      console.log("4. Игры");
       break;
     case 5:
-      console.log("5. ");
+      console.log("5. Танки и карты WOT");
       break;
     case 6:
       console.log("6. ");

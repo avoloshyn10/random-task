@@ -20,4 +20,6 @@ function task()
       console.log("5. Random task, RR3 25000 points");
       break;
   }
+  var second = Math.ceil(Math.random()*12);
+  console.log("Обычные задачи:" + second);
 }

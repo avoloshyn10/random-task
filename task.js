@@ -17,7 +17,7 @@ function task()
       console.log("4. Постирать носки, трусы, футболку, побриться");
       break;
     case 5:
-      console.log("5. Random task, RR3 25000 points");
+      console.log("5. Random task, RR3 50000 points");
       break;
   }
   var second = Math.ceil(Math.random()*12);
@@ -43,22 +43,22 @@ function task()
       console.log("6. Отдых");
       break;
     case 7:
-      console.log("7. Постирать, зашить, почистить");
+      console.log("7. Постирать, зашить, почистить, постричь ногти");
       break;
     case 8:
       console.log("8. Телеграм, Новости");
       break;
     case 9:
-      console.log("9. ");
+      console.log("9. Стирка трусов, носков");
       break;
     case 10:
-      console.log("10. ");
+      console.log("10. Спорт");
       break;
     case 11:
-      console.log("11. ");
+      console.log("11. Английский язык");
       break;
     case 12:
-      console.log("12. ");
+      console.log("12. Доця, Универ");
       break;
   }
 }

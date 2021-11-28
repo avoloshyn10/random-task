@@ -22,4 +22,10 @@ function task()
   }
   var second = Math.ceil(Math.random()*12);
   console.log("Обычные задачи:" + second);
+  switch(second)
+  {
+    case 1:
+      console.log("1. Программирование");
+      break;
+  }
 }

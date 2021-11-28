@@ -40,13 +40,13 @@ function task()
       console.log("5. Танки и карты WOT");
       break;
     case 6:
-      console.log("6. ");
+      console.log("6. Отдых");
       break;
     case 7:
-      console.log("7. ");
+      console.log("7. Постирать, зашить, почистить");
       break;
     case 8:
-      console.log("8. ");
+      console.log("8. Телеграм, Новости");
       break;
     case 9:
       console.log("9. ");

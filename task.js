@@ -17,7 +17,7 @@ function task()
       console.log("4. Постирать носки, трусы, футболку, побриться");
       break;
     case 5:
-      console.log("5. RR3 25000 points");
+      console.log("5. Random task, RR3 25000 points");
       break;
   }
 }

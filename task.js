@@ -7,6 +7,9 @@ function task()
   
   var second = Math.ceil(Math.random()*12);
   console.log("Обычные задачи:" + second);
+  var second_arr = ["1. Обычная задача", "2. English", "3. OpenPanzer2", "4. Постирать носки, трусы, футболку, побриться", "5. Random task, RR3 50000 points"];
+  console.log(second_arr[second-1]);
+  /*
   switch(second)
   {
     case 1:
@@ -46,4 +49,5 @@ function task()
       console.log("12. Доця, Универ");
       break;
   }
+  */
 }

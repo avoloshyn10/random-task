@@ -7,7 +7,7 @@ function task()
   
   var second = Math.ceil(Math.random()*12);
   console.log("Обычные задачи:" + second);
-  var second_arr = ["1. Обычная задача", "2. English", "3. OpenPanzer2", "4. Постирать носки, трусы, футболку, побриться", "5. Random task, RR3 50000 points"];
+  var second_arr = ["1. Программирование", "2. Музыка", "3. Кино", "4. Игры", "5. Танки и карты WOT", "6. Отдых"];
   console.log(second_arr[second-1]);
   /*
   switch(second)

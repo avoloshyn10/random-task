@@ -6,7 +6,7 @@ function task()
   switch(first)
   {
     case 1:
-      console.log("1. Обычная задача");
+      console.log(first_arr[first]);
       break;
     case 2:
       console.log("2. English");

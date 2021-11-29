@@ -4,26 +4,7 @@ function task()
   console.log("Обязательные задачи:" + first);
   var first_arr = ["1. Обычная задача", "2. English", "3. OpenPanzer2", "4. Постирать носки, трусы, футболку, побриться", "5. Random task, RR3 50000 points"];
   console.log(first_arr[first-1]);
-  /*
-  switch(first)
-  {
-    case 1:
-      console.log(first_arr[first-1]);
-      break;
-    case 2:
-      console.log("2. English");
-      break;
-    case 3:
-      console.log("3. OpenPanzer2");
-      break;
-    case 4:
-      console.log("4. Постирать носки, трусы, футболку, побриться");
-      break;
-    case 5:
-      console.log("5. Random task, RR3 50000 points");
-      break;
-  }
-  */
+  
   var second = Math.ceil(Math.random()*12);
   console.log("Обычные задачи:" + second);
   switch(second)

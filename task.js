@@ -10,45 +10,4 @@ function task()
   var second_arr = ["1. Программирование", "2. Музыка", "3. Кино", "4. Игры", "5. Танки и карты WOT", "6. Отдых", "7. Постирать, зашить, почистить, постричь ногти", 
                     "8. Телеграм, Новости", "9. Стирка трусов, носков", "10. Спорт", "11. Английский язык", "12. Доця, Универ"];
   console.log(second_arr[second-1]);
-  /*
-  switch(second)
-  {
-    case 1:
-      console.log("1. Программирование");
-      break;
-    case 2:
-      console.log("2. Музыка");
-      break;
-    case 3:
-      console.log("3. Кино");
-      break;
-    case 4:
-      console.log("4. Игры");
-      break;
-    case 5:
-      console.log("5. Танки и карты WOT");
-      break;
-    case 6:
-      console.log("6. Отдых");
-      break;
-    case 7:
-      console.log("7. Постирать, зашить, почистить, постричь ногти");
-      break;
-    case 8:
-      console.log("8. Телеграм, Новости");
-      break;
-    case 9:
-      console.log("9. Стирка трусов, носков");
-      break;
-    case 10:
-      console.log("10. Спорт");
-      break;
-    case 11:
-      console.log("11. Английский язык");
-      break;
-    case 12:
-      console.log("12. Доця, Универ");
-      break;
-  }
-  */
 }

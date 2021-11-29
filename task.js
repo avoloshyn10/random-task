@@ -2,6 +2,7 @@ function task()
 {
   var first = Math.ceil(Math.random()*5);
   console.log("Обязательные задачи:" + first);
+  var first_arr = ["1. Обычная задача", "2. English", "3. OpenPanzer2", "4. Постирать носки, трусы, футболку, побриться", "5. Random task, RR3 50000 points"];
   switch(first)
   {
     case 1:

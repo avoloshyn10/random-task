@@ -18,7 +18,7 @@ function task()
                     "8. new", "9. ", "10. ", "11. ", "12. "];
     console.log(third_arr[third-1]);
   }
-  elseif(second == 2)
+  else if(second == 2)
   {
     var third = Math.ceil(Math.random()*6);
     console.log("Музыка:" + third);

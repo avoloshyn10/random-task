@@ -18,4 +18,12 @@ function task()
                     "8. new", "9. ", "10. ", "11. ", "12. "];
     console.log(third_arr[third-1]);
   }
+  elseif(second == 2)
+  {
+    var third = Math.ceil(Math.random()*6);
+    console.log("Музыка:" + third);
+    var third_arr = ["1. Цой", "2. Алиса", "3. Shakira", "4. Farmer", "5. Наутилус", "6. new", "7. ", 
+                    "8. ", "9. ", "10. ", "11. ", "12. "];
+    console.log(third_arr[third-1]);
+  }
 }

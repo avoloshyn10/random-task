@@ -14,5 +14,8 @@ function task()
   {
     var third = Math.ceil(Math.random()*8);
     console.log("Программирование:" + third);
+    var third_arr = ["1. Ruby on Rails", "2. Ruby", "3. Clang", "4. Osdev, Babystep 1", "5. Список с tasks", "6. Электродинамика", "7. Logisim", 
+                    "8. new", "9. ", "10. ", "11. ", "12. "];
+    console.log(third_arr[third-1]);
   }
 }

@@ -26,4 +26,20 @@ function task()
                     "8. ", "9. ", "10. ", "11. ", "12. "];
     console.log(third_arr[third-1]);
   }
+  else if(second == 3)
+  {
+    var third = Math.ceil(Math.random()*5);
+    console.log("Кино:" + third);
+    var third_arr = ["1. Советское кино", "2. Иностранные фильмы", "3. Иностранные сериалы", "4. Уникальные фильмы", "5. new", "6. ", "7. ", 
+                    "8. ", "9. ", "10. ", "11. ", "12. "];
+    console.log(third_arr[third-1]);
+  }
+  else if(second == 4)
+  {
+    var third = Math.ceil(Math.random()*12);
+    console.log("Игры:" + third);
+    var third_arr = ["1. HOI 3", "2. HOI 2", "3. From Warsaw", "4. WOT", "5. Strategies", "6. WW2 games", "7. WOW", 
+                    "8. HOI3", "9. RR3", "10. racing games", "11. best game of year 2011,2001,1991,1981", "12. poker"];
+    console.log(third_arr[third-1]);
+  }
 }

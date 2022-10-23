@@ -38,7 +38,7 @@ function task()
   {
     var third = Math.ceil(Math.random()*12);
     console.log("Игры:" + third);
-    var third_arr = ["1. HOI 3", "2. HOI 2", "3. From Warsaw", "4. WOT", "5. Strategies", "6. WW2 games", "7. WOW", 
+    var third_arr = ["1. ARMA", "2. HOI 2", "3. From Warsaw", "4. WOT", "5. Strategies", "6. WW2 games", "7. WOW", 
                     "8. HOI3", "9. RR3", "10. racing games", "11. best game of year 2011,2001,1991,1981", "12. poker"];
     console.log(third_arr[third-1]);
   }

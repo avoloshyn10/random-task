@@ -1,8 +1,8 @@
 function task()
 {
-  var first = Math.ceil(Math.random()*5);
+  var first = Math.ceil(Math.random()*7);
   console.log("Обязательные задачи:" + first);
-  var first_arr = ["1. Обычная задача", "2. English (Duolingo, Busuu), Chech", "3. Open Source games, OpenPanzer2", "4. Постирать носки, трусы, футболку, побриться", "5. Random task"];
+  var first_arr = ["1. Обычная задача", "2. English (Duolingo, Busuu), Chech", "3. Open Source games, Mindustry", "4. Постирать носки, трусы, футболку, побриться", "5. Bible", "6. Arma Cold war", "7.new"];
   console.log(first_arr[first-1]);
   
   var second = Math.ceil(Math.random()*12);
